@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="650" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1C2B"/>
+      <stop offset="1" stop-color="#154A7A"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="210" y1="50" x2="580" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11C0D8"/>
+      <stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="460" rx="28" fill="url(#bg)"/>
+  <circle cx="604" cy="92" r="68" fill="#11C0D8" fill-opacity=".18"/>
+  <circle cx="130" cy="400" r="92" fill="#58A6FF" fill-opacity=".12"/>
+  <path d="M63 355c74-55 122-77 185-79 68-2 125 34 176 33 55-1 108-42 233-144" stroke="#84F4FF" stroke-width="14" stroke-linecap="round" stroke-opacity=".45"/>
+  <rect x="433" y="84" width="90" height="220" rx="16" transform="rotate(30 433 84)" fill="#F7FBFF"/>
+  <rect x="460" y="130" width="34" height="150" rx="10" transform="rotate(30 460 130)" fill="#DDEBFF"/>
+  <path d="M377 103l52 30" stroke="#C4E8FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M363 126l58 33" stroke="#C4E8FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M349 151l58 33" stroke="#C4E8FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M336 176l57 32" stroke="#C4E8FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M324 200l55 32" stroke="#C4E8FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M313 224l49 29" stroke="#C4E8FF" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="574" cy="120" r="18" fill="#F7FBFF"/>
+  <circle cx="574" cy="120" r="8" fill="#11C0D8"/>
+  <rect x="60" y="73" width="216" height="126" rx="22" fill="#FFFFFF" fill-opacity=".1" stroke="#FFFFFF" stroke-opacity=".14"/>
+  <text x="88" y="120" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Junior coaching</text>
+  <text x="88" y="154" fill="#C8DCF0" font-family="Inter, Arial, sans-serif" font-size="18">Beginners • Improvers</text>
+  <text x="88" y="182" fill="#C8DCF0" font-family="Inter, Arial, sans-serif" font-size="18">Progression to senior play</text>
+  <path d="M74 316h572" stroke="#7FC6F8" stroke-opacity=".2" stroke-width="2"/>
+  <rect x="60" y="336" width="132" height="56" rx="18" fill="url(#acc)"/>
+  <text x="94" y="370" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Taunton</text>
+</svg>
