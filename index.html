@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-font-size="normal">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A redesigned, mobile-first front-end concept for Unicorn Badminton Club in Taunton." />
+  <title>Unicorn Badminton Club | Play, Learn, Progress</title>
+  <link rel="icon" href="assets/images.png" type="image/svg+xml" />
+
+  <!-- ICON on top of the page -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Unicorn Badminton Club home">
+        <span class="brand-mark" aria-hidden="true">U</span>
+        <span>
+          <strong>Unicorn Badminton Club</strong>
+          <small>Taunton badminton for juniors, students and adults</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#sessions">Sessions</a>
+        <a href="#juniors">Juniors</a>
+        <a href="#club-info">Club info</a>
+        <a href="#weather">Weather</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header><!-- Accessibility controls -->
+
+  <div class="accessibility-bar" aria-label="Accessibility controls">
+    <div class="container accessibility-inner">
+      <p>Accessibility</p>
+      <div class="toolbar-group" role="group" aria-label="Theme controls">
+        <button id="theme-toggle" class="toolbar-btn" type="button">Dark mode</button>
+      </div>
+      <!-- Font size controls -->
+      <div class="toolbar-group" role="group" aria-label="Font size controls">
+        <button id="font-smaller" class="toolbar-btn" type="button">A-</button>
+        <button id="font-reset" class="toolbar-btn" type="button">A</button>
+        <button id="font-larger" class="toolbar-btn" type="button">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Play, learn and progress with Unicorn Badminton Club.</h1>
+          <p class="lead">A mobile-first concept site for Unicorn Badminton Club that brings the key information from the current website into a clearer, faster and more accessible experience, with a stronger focus on enquiries and usability.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Make an enquiry</a>
+            <a class="btn btn-secondary" href="#sessions">View sessions</a>
+          </div>
+        </div>
+      <div class="hero-card card glass">
+        <div class="hero-card-top">
+          <span class="pill">Current club snapshot</span>
+          
+        </div>
+        <div class="stats-grid">
+          <article>
+            <strong>2</strong>
+            <span>Junior pathways</span>
+          </article>
+          <article>
+            <img src="/Users/arianwilson/Desktop/college /assignment part 2/web assignemt 2/SCDV42_CW2_gho25003404_Seyed Arian_Ghorashi/website/assets/badminton1.jpeg" alt="">
+            <strong>4</strong>
+            <span>Qualified coaches</span>
+          </article>
+          <article>
+            <strong>6</strong>
+            <span>Visitor sessions covered by club liability policy</span>
+          </article>
+          <article>
+            <strong>1</strong>
+            <span>Simple place to find the information</span>
+          </article>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <img src="assets/badminton-scaled-800x500.jpg" alt="" class="full-width" />
+    <section id="sessions" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Club sessions</span>
+          <h2>Find the right session</h2>
+          <p>Key session details have been simplified into cards so players and parents can understand the club offer quickly.</p>
+        </div>
+
+        <div class="filter-bar" role="group" aria-label="Filter session cards">
+          <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="junior" type="button">Junior</button>
+          <button class="filter-btn" data-filter="adult" type="button">Adult / mixed</button>
+        </div>
+
+        <div class="session-grid">
+          <article class="card session-card" data-category="junior">
+            <div class="card-tag">Junior</div>
+            <h3>Beginners</h3>
+            <p class="session-time">Thursday • 5:30pm-6:30pm</p>
+            <p>Designed for younger players developing confidence, movement and basic hitting skills.</p>
+          </article>
+
+          <!-- Session card for Improvers -->
+          <article class="card session-card" data-category="junior">
+            <div class="card-tag">Junior</div>
+            <h3>Improvers</h3>
+            <p class="session-time">Monday • 5:30pm-7:00pm</p>
+            <p>Higher-intensity coaching with greater emphasis on consistency, accuracy and doubles tactics.</p>
+          </article>
+
+          <article class="card session-card" data-category="adult">
+            <div class="card-tag">Adult / mixed</div>
+            <h3>Senior club evening</h3>
+            <p class="session-time">Thursday evening</p>
+            <p>Junior players can progress into senior play when they are ready to benefit from the experience.</p>
+          </article>
+
+          <article class="card session-card" data-category="adult">
+            <div class="card-tag">Visitors</div>
+            <h3>Thinking of trying the club?</h3>
+            <p class="session-time">Enquire before attending</p>
+            <p>Visitors are welcomed, and the club’s public liability cover extends to genuine visitors for up to six visits.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+ <!--card for junior pathway-->
+    <section id="juniors" class="section surface-muted">
+      <div class="container two-column">
+        <div>
+          <div class="section-heading left-align">
+            <span class="eyebrow">Junior pathway</span>
+            <h2>A clearer route from learning to competitive play</h2>
+          </div>
+          <p>According to the current club site, Unicorn is focused on helping children and young people learn badminton, improve, and move into club and competitive play when ready.</p>
+          <ul class="check-list">
+            <li>Flexible grouping based on age and playing level</li>
+            <li>Parents encouraged to watch or help</li>
+            <li>Safeguarding support and DBS-checked coaching team</li>
+            <li>Volunteer opportunities for older students</li>
+          </ul>
+        </div>
+        <div class="card pathway-card">
+          <h3>Example progression</h3>
+          <div class="path-step">
+            <span>1</span>
+            <div>
+              <strong>Beginners</strong>
+              <p>Learn basic strokes, movement and confidence on court.</p>
+            </div>
+          </div>
+          <div class="path-step">
+            <span>2</span>
+            <div>
+              <strong>Improvers</strong>
+              <p>Build accuracy, consistency and tactical awareness.</p>
+            </div>
+          </div>
+          <div class="path-step">
+            <span>3</span>
+            <div>
+              <strong>Senior integration</strong>
+              <p>Transition into mixed club play when standard and readiness allow.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="club-info" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Club information</span>
+          <h2>Important information in one place</h2>
+        </div>
+        <div class="info-grid">
+          <article class="card info-card">
+            <h3>Safeguarding</h3>
+            <p>The current site highlights safeguarding guidance for children, young people and adults, plus a dedicated welfare contact address.</p>
+          </article>
+          <article class="card info-card">
+            <h3>Affiliations</h3>
+            <p>Players are encouraged to consider Badminton England membership and the club references Somerset County Badminton Association links.</p>
+          </article>
+          <article class="card info-card">
+            <h3>Committee</h3>
+            <p>The site lists current committee roles including chair, secretary, treasurer, fixtures and coaching support.</p>
+          </article>
+          <article class="card info-card">
+            <h3>GDPR and forms</h3>
+            <p>Adult and junior registration forms are used to collect essential data and optional health or photo permissions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="weather" class="section surface-muted">
+      <div class="container weather-layout">
+      
+        <div>
+          <div class="section-heading left-align">
+  
+          </div>
+        </div>
+        <div>
+          
+          <!-- Weather card --> 
+        </div>
+        <div class="card weather-card" aria-live="polite">
+          <span class="eyebrow1">taunton weather</span>
+          <div id="weather-output">
+            <p class="loading">Loading local weather…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container faq-layout">
+        <div class="section-heading left-align">
+          <span class="eyebrow">Questions and support</span>
+          <h2>Frequently asked questions</h2>
+          <p>These are designed to reduce friction for parents, students and adults who want quick answers before contacting the club.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="card faq-item">
+            <summary>Who is the club for?</summary>
+            <div class="faq-content">
+              <p>The current club information covers junior development and progression into senior play, making the club suitable for juniors, students and adults depending on session and standard.</p>
+            </div>
+          </details>
+          <details class="card faq-item">
+            <summary>Can parents stay during junior sessions?</summary>
+            <div class="faq-content">
+              <p>Yes. The current site explicitly encourages parents to stay and watch or help with activities where appropriate.</p>
+            </div>
+          </details>
+          <details class="card faq-item">
+            <summary>What happens with safeguarding concerns?</summary>
+            <div class="faq-content">
+              <p>The existing site provides safeguarding information and a welfare contact route via safeguarding@unicornbadminton.club.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-heading left-align light-text">
+            <span class="eyebrow">Contact</span>
+            <h2>Make an enquiry</h2>
+            <p>Fill out the form below to get in touch with us.</p>
+          </div>
+          <div class="contact-points">
+            <div>
+              <span>Email</span>
+              <a href="mailto:info@unicornbadminton.club">info@unicornbadminton.club</a>
+            </div>
+            <div>
+              <span>Safeguarding</span>
+              <a href="mailto:safeguarding@unicornbadminton.club">safeguarding@unicornbadminton.club</a>
+            </div>
+            <div>
+              <span>Location</span>
+              <p>Taunton, Somerset</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact form for email and sending it -->
+        <form id="contact-form" class="card contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-group">
+            <label for="interest">I’m interested in</label>
+            <select id="interest" name="interest">
+              <option>Junior sessions</option>
+              <option>Senior / adult play</option>
+              <option>Visitor enquiry</option>
+              <option>Safeguarding question</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Create email enquiry</button>
+          <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+<!-- Footer with club social media links and any additional info -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
